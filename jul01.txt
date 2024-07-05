@@ -1,0 +1,37 @@
+HTML AND CSS
+-- create a webpage
+-- static and dynamic webpage
+ static // content won't get changed, for all user content will be same (wikipedia, blogspot)
+ Dynamic // content will get changed acc. to the user's input (amazon) prime members
+
+
+website -- static website
+webapplication -- dynamic app ( front end + backend + db)
+
+http: hypertext transfer protocal
+request and response
+client and server
+server-- www.amazon.com // server
+project
+live
+hosting- live
+go daddt
+photo - memory- server
+virtual memory - server
+client -- server physical presence
+
+
+request --> server <--- response
+with db checking
+
+programming language -- use of compiler to convert the source code to machine code
+scrippting language -- no use of compiler
+
+
+
+syllabus: html 5
+
+<!DOCTYPE html>
+-- information to the browser that the doc is html
+
+
