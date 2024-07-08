@@ -1,0 +1,63 @@
+Destop application
+
+core java, mysql(awt/swing/javaFX) these are the things needed for designing 
+
+applet programs( applet prm u can embed in html page and run it)
+(jV+ html) --run it
+
+web application
+html,css, bootstrap,javascript, core java, mysql, framework(springboot)
+
+ERP projects( web+ desktop)
+
+--enterprise resource planning
+
+It--a to z when comes
+
+website> eg// wikipedia, w3 schools
+webapplication > eg: amazon
+
+
+SDLC - Software development lifecycle
+planning-- collect requirements from the user/client
+
+
+Designing--UI
+Development/coding--
+Testing--Manual/automation (selenium/cucumber)
+Deployment--Live
+Maintenance--making live if we need any changes or any upgradation for the s/w
+
+
+
+error- human error
+
+bug- the expected output didnt came 
+
+
+
+methodologies:
+waterfall
+increment rad model
+agile methodology( current methodology followed by all the companies for developing the software)
+  we can go top to down or down to top approach
+circular
+scrum master -- plays a vital role, developing and client team
+
+sprint?? small module or a service that project
+
+Backlogs- pending works
+
+
+
+what is framework? springboot 
+boiler plate code
+
+
+
+generations of springboot:-
+Jsp/servlet,jsl,EJB,RMI,JMS
+1.struts framework
+2.spring MVC
+3.spring boot
+

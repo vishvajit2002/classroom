@@ -15,7 +15,7 @@ server-- www.amazon.com // server
 project
 live
 hosting- live
-go daddt
+go daddy
 photo - memory- server
 virtual memory - server
 client -- server physical presence
