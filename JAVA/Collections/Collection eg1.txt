@@ -1,0 +1,11 @@
+Set is collection that doesn't duplicate the elements
+set is ithe unordered collection of objects
+set returns a integer values
+
+Treeset 
+	-It executes stored sets and its backed by treemap
+	-It'll return the element from the set which is stored
+Hashset
+	-It is a collection of an item where item is unique
+	-It employees hashtable for the storage
+	-It'll store any type of object

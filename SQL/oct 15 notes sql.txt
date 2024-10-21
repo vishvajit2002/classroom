@@ -1,0 +1,11 @@
+PreparedStatement extends statement an object that represents a pre-compiled sql statement
+preparedStatement is a statement that  is used to execute queries updates and ddl statements, execute statements on a database, return type is statement object.
+
+Benefits of prepared Statements:-
+(important)
+1. To enhance security by preventing sql injection attacks.
+2. Improved performance by reusing query execution runs
+----------------------------------------------------------------------
+
+collable statements is used to call stored procedures and functions.
+we can have a business logic on the database by the use of stored procedures and functions.

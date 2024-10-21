@@ -1,0 +1,7 @@
+SEO- search engine optimization
+meta tag is having the sub-information of our page, like which website has more views that would be displayed at the top. the suggestion when we search  on google.
+
+emmet abbrevations are used to minimize the code by typing few line, visit it website to learn more.
+
+
+vh- viewport height ( the device which you're seeing)

@@ -35,3 +35,29 @@ syllabus: html 5
 -- information to the browser that the doc is html
 
 
+
+__________________________________________
+
+
+Desktop application J2SE	
+Web application J2EE
+ERP (J@SE/J2EE)
+
+J2SE- standard Edition -- core java
+
+Desktop application/ standalone application
+Core java+UI(awt/swing/jVFx)
+extension- .exe(executable form/file)
+
+J2EE-- enterprise editi
+on 
+web application
+jsp/servle(html,css, javascript+core java)
+spring -- addons ineclipse
+extension- (.com.org.in) (domains)
+
+Mobile applicationns
+android +java
+extension - (.apk)
+
+

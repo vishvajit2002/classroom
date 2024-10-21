@@ -1,0 +1,1 @@
+Jagged array is an array of array, and the member array can be of different size.

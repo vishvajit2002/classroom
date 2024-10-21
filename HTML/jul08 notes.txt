@@ -1,0 +1,111 @@
+Destop application
+
+core java(awt/swing/javaFX), mysql these are the things needed for designing 
+
+applet programs( applet prm u can embed in html page and run it)
+(jV+ html) --run it
+
+web application
+html,css, bootstrap,javascript, core java, mysql, framework(springboot)
+
+ERP projects( web application+ desktop)
+
+--enterprise resource planning
+
+It--a to z when comes
+
+website> eg// wikipedia, w3 schools  (common to everyone)
+webapplication > eg: amazon (the view and the contents gonnna differ for the users)
+
+
+SDLC - Software development lifecycle
+planning-- collect requirements from the user/client
+
+
+Designing--UI
+Development/coding--
+Testing--Manual/automation (selenium/cucumber)
+Deployment--    Live
+Maintenance--making live if we need any changes or any upgradation for the s/w
+
+
+
+error- human error
+
+bug- the expected output didnt came 
+
+
+
+methodologies:
+waterfall
+increment rad model
+agile methodology( current methodology followed by all the companies for developing the software)
+W e can go top to down or down to top approach
+circular
+scrum master -- plays a vital role, developing and client team
+
+sprint?? small module or a service that project
+
+Backlogs- pending works
+
+
+
+what is framework? springboot 
+boiler plate code
+
+
+
+generations of springboot:-
+Jsp/servlet,jsl,EJB,RMI,JMS
+1.struts framework
+2.spring MVC
+3.spring boot
+--------------------------------------------------------------------------------------------------
+
+### Desktop Application
+A desktop application is a software program that runs on a desktop computer or laptop. For designing desktop applications using Java, you typically use:
+
+1. **Core Java (AWT/Swing/JavaFX):**
+   - **AWT (Abstract Window Toolkit):** AWT is an older Java library for creating graphical user interfaces (GUIs). It is part of the Java Foundation Classes (JFC) and provides a set of APIs for building windows, buttons, and other GUI components.
+   - **Swing:** Swing is a more advanced and flexible library than AWT, also part of the JFC. It offers a richer set of GUI components and is widely used for desktop applications.
+   - **JavaFX:** JavaFX is the latest GUI toolkit for Java. It provides a modern, feature-rich API for building visually appealing and interactive user interfaces.
+
+2. **MySQL:**
+   - MySQL is a relational database management system (RDBMS) used for storing and managing application data. It can be integrated with Java applications to perform database operations like CRUD (Create, Read, Update, Delete).
+
+### Applet Programs
+An applet is a small Java program that can be embedded in an HTML page and run in a web browser. However, applets are largely obsolete due to security concerns and the evolution of web technologies.
+
+1. **Applet:**
+   - An applet is a Java program that can be embedded into a web page using the `<applet>` HTML tag. It runs in a web browser's Java plugin.
+
+2. **(Java + HTML):**
+   - By embedding a Java applet in an HTML page, you can create interactive web components that run Java code. However, applets require the Java plugin, which is not supported by modern browsers.
+
+### Web Application
+A web application is a software application that runs on a web server and is accessed through a web browser. The technologies involved include:
+
+1. **HTML (HyperText Markup Language):**
+   - HTML is the standard markup language for creating web pages. It defines the structure of web content.
+
+2. **CSS (Cascading Style Sheets):**
+   - CSS is used to style and layout web pages. It allows you to control the appearance of HTML elements, including colors, fonts, and layout.
+
+3. **Bootstrap:**
+   - Bootstrap is a popular front-end framework for building responsive web pages. It includes pre-designed templates and components like navigation bars, buttons, and forms.
+
+4. **JavaScript:**
+   - JavaScript is a programming language that enables dynamic and interactive web content. It runs in the browser and can manipulate the HTML and CSS of a web page in response to user actions.
+
+5. **Core Java:**
+   - Core Java is used on the server side to write business logic and handle backend operations. Java servlets, JSP (JavaServer Pages), and other technologies are used to create dynamic web content.
+
+6. **MySQL:**
+   - MySQL is used to store and manage data for web applications. It can be accessed from Java code using JDBC (Java Database Connectivity) or through frameworks like Hibernate.
+
+7. **Framework (Spring Boot):**
+   - **Spring Boot:** Spring Boot is a framework for building standalone, production-grade Spring-based applications. It simplifies the development of web applications by providing pre-configured settings and reducing boilerplate code. Spring Boot applications can easily integrate with databases like MySQL and use Java for backend logic.
+
+
+
+

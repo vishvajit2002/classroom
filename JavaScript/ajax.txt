@@ -1,0 +1,13 @@
+AJAX
+	1.It reads the data from the webserver after the sever is loaded
+	2. update a webpage without reloading the page.
+	3.Sends data to the webserver in the background
+	4.
+
+
+0
+1 
+1
+1+1=2
+1+2=3
+2+3=5
