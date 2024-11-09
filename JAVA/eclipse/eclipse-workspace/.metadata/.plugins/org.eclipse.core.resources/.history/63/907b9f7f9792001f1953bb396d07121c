@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Page Count Example</title>
+</head>
+<body>
+<% 
+// Get the session object
+javax.servlet.http.HttpSession session = request.getSession();
+Integer count = (Integer) session.getAttribute("pageCount");
+
+// Initialize count if it's null
+if (count == null) {
+    count = 0;
+}
+
+// Increment the count
+count++;
+session.setAttribute("pageCount", count);
+%>
+<h1>Welcome to Hello World</h1>
+<p>Page count is: <%= count %></p>
+</body>
+</html>

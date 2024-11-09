@@ -1,0 +1,27 @@
+package Arrayeg;
+import java.util.Scanner;
+public class jaggedarreg2
+{
+
+    public static void main(String[] args) {
+        Scanner scan=new Scanner(System.in);
+        System.out.println("enter the no of arrays");
+        int numberofarrays=scan.nextInt();
+        int[][] jaggedArrays=new int[numberofarrays][];
+
+        for (int i = 0; i <numberofarrays; i++) 
+        {
+        	System.out.println("Enter the size of sub array"+(i+1+": "));
+        	int sizeOfSubArray=scan.nextInt();
+        	jaggedArrays[i]=new int[sizeOfSubArray];
+        }
+
+        for (int i = 0; i < numberofarrays; i++) {
+            System.out.println("Enter the size of subb array"+(i+1+": "));
+            for(int j=0; j<jaggedArrays[i].length;j++);
+            jaggedArrays[i][j]=scan.nextInt();            	
+            }
+        }
+}
+
+       

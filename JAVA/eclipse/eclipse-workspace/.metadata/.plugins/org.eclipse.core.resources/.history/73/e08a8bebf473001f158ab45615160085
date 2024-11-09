@@ -1,0 +1,10 @@
+package Thread;
+public class ThreadRunnab
+{
+
+	public ThreadRunnab()
+	{
+		// TODO Auto-generated constructor stub
+	}
+
+}

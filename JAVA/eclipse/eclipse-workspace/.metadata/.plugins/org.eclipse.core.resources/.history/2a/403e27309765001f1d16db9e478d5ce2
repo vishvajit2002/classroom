@@ -1,0 +1,37 @@
+package Arrayeg;
+
+import java.util.Scanner;
+
+public class Jaggedarreg4
+{
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Get the number of rows
+        System.out.print("Enter the number of rows: ");
+        int rows = scanner.nextInt();
+
+        // Create a jagged array
+        int[][] jaggedArray = new int[rows][];
+
+        // Fill and print the pattern in a single loop
+        for (int i = 0; i < rows; i++) {
+            jaggedArray[i] = new int[i + 1];
+            for (int j = 0; j <= i; j++) {
+                jaggedArray[i][j] = j + 1;
+                System.out.print(jaggedArray[i][j]);
+            }
+            System.out.println();
+        }
+
+        // Print the remaining part of the pattern
+        for (int i = rows - 2; i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print(jaggedArray[i][j]);
+            }
+            System.out.println();
+        }
+
+        scanner.close();
+    }
+}

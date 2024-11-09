@@ -1,0 +1,60 @@
+implicit objects in jsp
+request 
+response 
+session
+out
+
+out is used to write data into the buffer which would be sent to the client as output.
+
+request is used to passed as a parameter to jsp service method. this instance is created a request is generated. 3 methods are 1.getParameter() 2. getParametername() 3.getParameterValues(String name)
+
+response given to the user and objects get passed as a parameter to jsp service like redbus
+---------------------------------------------
+# JSP Implicit Objects(by chatGpt)
+
+1. request
+   - Represents the HTTP request made by the client.
+   - Created with each request to the server.
+   - Methods:
+     - getParameter(String name): Retrieves a single value for a parameter.
+     - getParameterNames(): Returns all parameter names.
+     - getParameterValues(String name): Retrieves multiple values for a parameter.
+
+2. response
+   - Represents the HTTP response to be sent back to the client.
+   - Used to set headers, content type, etc.
+
+3. session
+   - Represents the session between the client and server.
+   - Stores user-specific data across requests.
+   - Methods:
+     - getAttribute(String name): Retrieves an attribute from the session.
+     - setAttribute(String name, Object value): Stores an attribute in the session.
+
+4. out
+   - Instance of JspWriter, used to write data to the response buffer.
+   - Methods:
+     - print(): Writes data to the output stream.
+     - println(): Writes data followed by a new line.
+
+5. config
+   - Represents servlet configuration information for the JSP.
+   - Access initialization parameters from web.xml.
+
+6. application
+   - Represents the servlet context for the web application.
+   - Shared across all users/sessions for application-wide data.
+
+7. pageContext
+   - Provides access to all implicit objects.
+   - Useful for managing page-level attributes.
+
+8. page
+   - Refers to the current JSP page itself.
+   - Used to reference the JSP in expressions or scriptlets.
+
+# Example Usage
+<%
+    String username = request.getParameter("username");
+    out.println("Hello, " + username + "!");
+%>
