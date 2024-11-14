@@ -1,0 +1,8 @@
+@entity - that a class can be mapped to a table...
+get and set is pojo class
+@id - primary key annotations
+ - it'll intruct the database for this database automatically
+repository is a markup for any class that fulfils the role of any class.. also known as DAO
+
+JPA  repository 
+modal is long..it is a JPA specific representation. It contains crud operation.
