@@ -1,0 +1,8 @@
+Acid properties are meant for a transaction that goes for a different groups of tasks.
+and when any changes are done, the data should remain intergrated in dbms.
+
+A- ATOMICITY
+C- CONSISTANCY
+I- INTEGRITY
+D- DURABALITY
+V6pgrzme6k@07

@@ -1,0 +1,2 @@
+FUNCTION IN MYSQL:-
+	A function is a block of organised reusable code, that is used to perform a single related action.

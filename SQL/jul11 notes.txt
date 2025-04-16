@@ -1,0 +1,7 @@
+Mysql -- database software
+Sql - structured query language
+mysql workbench??
+tool to run our queries
+
+jdk/eclipse(tool to run java)
+Eclipse. IntelliJ, Netbeans., Notepad, vscode
