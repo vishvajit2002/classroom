@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="demo">
+    <button type="button" onclick="loads()">Change Content</button>
+   </div> 
+   <script>
+    function loads()
+    {
+        const xhttp=new XMLHttpRequest(); //exchange the data with webserver
+        xhttp.onload=function()
+        {
+            document.getElementById("demo").innerHTML=this.responseText;
+        }
+        xhttp.open("GET","ajax_info.txt");//send req to a server and use open & send methods of obj
+        xhttp.send();
+    }
+   </script>
+</body>
+</html>

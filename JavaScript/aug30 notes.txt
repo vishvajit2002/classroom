@@ -1,0 +1,5 @@
+ arrow functions is an anonymous function expression return with fat arrow(=>)
+NOTE:-
+It is used to defining the function from one datatype to the another.
+It is used to return the implicit statements.
+They cannot be used before they are defined in the core.

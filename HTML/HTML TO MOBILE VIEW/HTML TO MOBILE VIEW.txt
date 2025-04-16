@@ -1,0 +1,30 @@
+TO VIEW IN LAPTOP
+
+http://127.0.0.1:5500/index.html
+→ 127.0.0.1 is the local loopback address (aka localhost) — this only works on your PC. 
+
+TO VIEW IN MOBILE
+
+http://192.168.1.5:5500/index.html
+→ 192.168.1.5 is your PC's IP address on your Wi-Fi network — this works on any device in the same network, like your mobile phone.
+
+
+Part	           Meaning
+192.168.1.5	 Your PC's IP address
+5500          	The port number Live Server uses
+/index.html	The path to your HTML file
+
+
+
+
+Step 1: Find your PC's IP address
+On Windows:
+Open Command Prompt (Win + R, type cmd, hit Enter)
+
+Type:
+
+nginx
+Copy
+Edit
+ipconfig
+Look for this line:

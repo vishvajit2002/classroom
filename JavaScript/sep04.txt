@@ -1,0 +1,4 @@
+js - array
+1. array literal
+2. creating instance of an array
+3. array constructor

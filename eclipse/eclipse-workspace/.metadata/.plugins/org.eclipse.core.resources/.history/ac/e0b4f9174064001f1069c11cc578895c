@@ -1,0 +1,30 @@
+package Arrayeg;
+
+import java.util.Scanner;
+
+public class Multidimentional
+{
+public static void main(String[] args)
+{
+	Scanner input=new Scanner(System.in);
+	System.out.println("enter the array limit");
+	int I=input.nextInt();
+	int[] a=new int[I];
+	
+	for(int i=0; i<I; i++)
+	{
+		System.out.println(i);
+		a[i]=input.nextInt();
+	
+		
+		System.out.println("Cubic array element\n");
+		for(int e:i)
+		{
+			System.out.println(e*e*e);
+		}
+		
+		
+	}
+	
+}
+}
